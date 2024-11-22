@@ -39,3 +39,27 @@ Before you begin, ensure you have met the following requirements:
 
 ## Running the Bot
 To run the bot locally, use the following command:
+
+
+You should see a message indicating that the bot has logged in successfully.
+
+## Deployment
+To deploy the bot using Docker, follow these steps:
+
+1. Build the Docker image:
+   ```bash
+   docker build -t discord-bot .
+   ```
+
+2. Run the Docker container:
+   ```bash
+   docker run -d --env DISCORD_BOT_TOKEN=your_bot_token_here discord-bot
+   ```
+
+For more information on deploying Docker containers, refer to the [Docker documentation](https://docs.docker.com/get-started/).
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Deployment 
+You can deploy version of the bot at cloud service of your choice
